@@ -1,4 +1,6 @@
-FROM ubuntu:22.04  # base image 
+ # base image
+FROM ubuntu:22.04 
 
-CMD ["echo","Hello Docker"]  # it runs when container starts
+# it runs when container starts
+CMD ["echo","Hello Docker"]
 
